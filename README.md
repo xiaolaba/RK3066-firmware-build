@@ -2,11 +2,17 @@
 uses WIN10 WSL, rockchip rk3066 firmware build, busybox 1.24.1 failed, 1.33.1 ok, ref: https://lexra.pixnet.net/blog/post/350619827  
 
 
+win10 command line, invoke wsl terminal,  
+wsl  
+![wsl_command.JPG](wsl_command.JPG)  
 
 
-https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server
+
 
 Step 1 — Setting Up Python 3
+
+ref: https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server
+
 Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed. 
 To make sure that our versions are up-to-date, let’s update and upgrade the system with the apt command to work with 
 Ubuntu’s Advanced Packaging Tool:
