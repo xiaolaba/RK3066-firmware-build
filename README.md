@@ -158,6 +158,6 @@ sudo make ARCH=arm V=1 CROSS_COMPILE=arm-linux-gnueabihf- -C busybox-1.33.1 inst
 ls busybox-1.33.1/_install/
 ```
 
-soemthing like this,
+soemthing like this,  
 ![RK3066_busybox_1.33.1_done.JPG](RK3066_busybox_1.33.1_done.JPG)  
 
