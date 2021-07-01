@@ -161,3 +161,12 @@ ls busybox-1.33.1/_install/
 soemthing like this,  
 ![RK3066_busybox_1.33.1_done.JPG](RK3066_busybox_1.33.1_done.JPG)  
 
+
+### get rid of $'\r': command not found, install dos2unix   
+```
+sudo apt-get install dos2unix
+sudo dos2unit default.script
+```
+
+
+
