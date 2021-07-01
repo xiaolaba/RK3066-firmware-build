@@ -168,5 +168,15 @@ sudo apt-get install dos2unix
 sudo dos2unit default.script
 ```
 
+### build local files, copy host files
+```
+cd _install
+sudo chmod +777 unpacked-boot/etc
+sudo cp /etc/host.conf unpacked-boot/etc/host.conf 
+sudo cp /etc/hosts unpacked-boot/etc/hosts
+sudo cp /etc/resolv.conf unpacked-boot/etc/resolv.conf
+sudo cp /etc/mtab unpacked-boot/etc/mtab
+```
+echo marsboard-rk3066 > unpacked-boot/etc/hostname
 
 
